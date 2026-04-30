@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Hacker | Portfolio</title>
+    <meta name="description"
+        content="Retro terminal-style portfolio for a Creative Developer & Visual Artist. Exploring digital experiences through code and creativity.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="scanline"></div>
+
+    <header>
+        <div class="terminal-prompt">
+            &gt;_ root@portfolio_<span class="cursor"></span>
+        </div>
+        <nav>
+        </nav>
+    </header>
+
+    <main id="home">
+        <!-- Main Terminal Window -->
+        <section class="terminal-window">
+            <div class="terminal-header">
+                <div class="window-controls">
+                    <div class="control red"></div>
+                    <div class="control yellow"></div>
+                    <div class="control green"></div>
+                </div>
+                <div class="window-title">terminal.app</div>
+                <div></div> <!-- Spacer -->
+            </div>
+            <div class="terminal-content">
+                <div class="command-line">
+                    <span class="prompt-char">$</span> <span class="typing" data-text="whoami"></span>
+                    <div class="output">Estuadiante de Ingneiria de software</div>
+                </div>
+
+                <div class="command-line">
+                    <span class="prompt-char">$</span> <span class="typing" data-text="ls -skills/"></span>
+                    <div class="output dir-list">
+                        <span>drwxr-xr-x design/</span>
+                        <span>drwxr-xr-x video/</span>
+                        <span>drwxr-xr-x photography/</span>
+                    </div>
+                </div>
+
+                <div class="command-line">
+                    <span class="prompt-char">$</span> <span class="typing" data-text="cat mission.txt"></span>
+                    <div class="output">
+                        Crafting digital experiences through code and creativity.<br>
+                        Specializing in graphic design, video production, and photography.
+                    </div>
+                </div>
+
+                <div class="command-line">
+                    <span class="prompt-char">$</span> <span class="typing"
+                        data-text="echo 'CREATIVE.HACKER.PORTFOLIO'"></span>
+                    <div class="output">CREATIVE.HACKER.PORTFOLIO</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Cards -->
+        <section class="projects-container">
+            <div class="project-card" onclick="window.location.href='Documentos/ECCV.pdf'">
+                <i class="fas fa-code project-icon"></i>
+                <span class="project-name">./design.sys</span>
+                <p class="project-desc">Graphic Design Portfolio</p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="scroll-indicator">
+            <p>scroll_down()</p>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+
+        <div id="footer-content" class="footer-terminal">
+            <div class="footer-info">
+                <div class="command-line">
+                    <span class="prompt-char">$</span> <span>finger root</span>
+                    <div class="output">
+                        <p>Login: Estudiante de Ingenieria en sistemas</p>
+                        <p>Name: Emilio Estefan Contreras Hernández</p>
+                    </div>
+                </div>
+
+                <div class="command-line">
+                    <span class="prompt-char">$</span> <span>cat contact_info.json</span>
+                    <div class="output">
+
+                        "email": "emilioestefancontreras@gmail.com",
+                        "location": "Cyberspace",
+                        "availability": "Open for collaborations"
+
+                    </div>
+                </div>
+
+                <div class="command-line">
+                    <span class="prompt-char">$</span> <span>ping -c 3 social.media</span>
+                    <div class="output">
+                        64 bytes from github.com: icmp_seq=1 ttl=64 time=0.04ms<br>
+                        64 bytes from linkedin.com: icmp_seq=2 ttl=64 time=0.06ms<br>
+                        64 bytes from twitter.com: icmp_seq=3 ttl=64 time=0.05ms
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" title="github.exe">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com" target="_blank" title="linkedin.so">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://twitter.com" target="_blank" title="twitter.cfg">
+                    <i class="fab fa-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+                <a href="https://instagram.com" target="_blank" title="instagram.img">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+            </div>
+
+            <div class="copyright">
+                &copy; 2026 Creative Hacker | System status: <span class="online">ONLINE</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

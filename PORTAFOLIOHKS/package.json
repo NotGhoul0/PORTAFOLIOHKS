@@ -1,0 +1,17 @@
+{
+  "name": "creative-hacker-portfolio",
+  "version": "1.0.0",
+  "description": "Retro terminal-style portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "portfolio",
+    "retro",
+    "terminal",
+    "hacker"
+  ],
+  "author": "Creative Hacker",
+  "license": "MIT"
+}
